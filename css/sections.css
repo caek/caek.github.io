@@ -19,6 +19,9 @@
   background-color: #83d7e5;
   color: #fff;
 }
+.blue .content {
+  background-color: #83d7e5;
+}
 
 .blog .content {
   width: 900px;
@@ -32,6 +35,10 @@
   line-height: 1.1;
   color: #333332;
   margin-bottom: 4px;
+}
+.blog h3 a {
+  color: inherit;
+  text-decoration: none;
 }
 .blog p {
   letter-spacing: -0.02em;
@@ -77,8 +84,8 @@
   top: 540px;
   left: 45%;
   margin: 0 auto;
-  height: 3000px;
-  width: 120px;
+  height: 1000px;
+  width: 90px;
 }
 .coffee-croissant {
   background: url(/media/images/bg/coffee_croissant.jpg);
@@ -86,10 +93,21 @@
   background-size: cover;
   height: 600px;
 }
+.twitter.content {
+
+}
+.thoughtworks {
+  position: relative;
+  background: url(/media/images/bg/glyphs.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 999;
+}
+
 
  .huge-icon {
   color: #fff;
-  font-size: 140pt;
+  font-size: 100pt;
  }
  .blue .huge-icon {
   background-color: #83d7e5;

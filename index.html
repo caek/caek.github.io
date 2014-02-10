@@ -18,38 +18,35 @@ title: Caek & Code | Rachel Laycock
 </div>
 <div class="section white blog">
   <div class="content">
-  <article>
-    <h3>Continuous Delivery on Windows, Part III</h3>
-    <p>
-      And now we’re onto the really tough problem of automating the creation and updates to your infrastructure on Windows. What we want is to be able to create any environment at the touch of a button and using automation this environment magically appears before our eyes ready to deploy our software to.
-    </p>
-    <small>Posted by @ladylaycock on Thurs, 23rd March, 2014</small>
-  </article>
-  <article>
-    <h3>SVN to Git, Making Technical Changes at Scale</h3>
-    <p>
-      It isn’t uncommon to see an organisation using the same practices and technologies they were 5 or 10 years ago. When large organisations face new technology, often their first concern is, how they can implement this change across the board – when it should be to see if it’s viable at all.
-    </p>
-    <small>Posted by @ladylaycock on Thurs, 23rd March, 2014</small>
-  </article>
+  {% for post in site.posts %}
+    <article>
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <small>{{ post.subtitle }}</small>
+      </h3>
+      <p>
+        {{ post.excerpt }}
+      <small>Posted by {{ post.author }} on {{ post.date | date_to_string }}</small>
+      </p>
+    </article>
+  {% endfor %}
   </div>
 </div>
 <div class="section color blue">
-  <div class="content">
+  <div class="twitter content">
     <center>
       <i class="fa fa-twitter huge-icon"></i>
-      <h1>@rachellaycock</h1>
-      <a href="https://twitter.com/rachellaycock" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @rachellaycock</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <div><a href="https://twitter.com/rachellaycock" class="btn alt">Find me on Twitter</a></div>
     </center>
   </div>
 </div>
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="section thoughtworks">
+  <div class="card">
+    <center>
+      <h1>I work for</h1>
+      <img src="/media/images/tw-logo.png" class="medium" />
+      <h3>You should too!</h3>
+      <a href="http://join.thoughtworks.com" class="btn">Find out more</a>
+    </center>
+  </div>
 </div>
