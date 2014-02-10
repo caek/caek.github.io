@@ -43,3 +43,16 @@ img.medium {
   position: relative;
   bottom: -20px;
 }
+
+.pull-left {
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+hr {
+  border-top: none;
+  border-bottom: 1px dashed #BBB;
+}

@@ -2,18 +2,15 @@
   width: 100%;
 }
 .maroon {
-  background-color: #7a2717;
-  color: #4f4f4f;
+  background-color: #bb5d4b;
+  color: #bb5d4b;
   text-decoration:
 }
 .maroon h1 {
   text-align: center;
 }
 .maroon em {
-  background-color: #83d7e5;
-}
-.white {
-  color: #7a2717;
+  background-color: #fff;
 }
 .blue {
   background-color: #83d7e5;
@@ -75,7 +72,7 @@
   margin-bottom: 0.5em;
   padding: 30px;
   text-align: center;
-  width: 600px;
+  width: 530px;
 }
 .banner-hero {
   font-size: 55.55555725097656px;
@@ -140,3 +137,8 @@
   background-color: #83d7e5;
 }
 
+.col {
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
