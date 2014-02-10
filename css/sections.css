@@ -66,7 +66,28 @@
 .card img {
   width: 400px;
 }
-
+.banner {
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+  padding: 30px;
+  text-align: center;
+  width: 600px;
+}
+.banner-hero {
+  font-size: 55.55555725097656px;
+  font-weight: 900;
+  height: 48.88888931274414px;
+  letter-spacing: -4.400000095367432px;
+  line-height: 49.5px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 .content {
   position: relative;
   padding: 50px 0;
@@ -103,12 +124,19 @@
   background-size: cover;
   z-index: 999;
 }
+.tech-radar {
+  position: relative;
+  background: url(/media/images/bg/tech-radar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 999;
+}
 
-
- .huge-icon {
+.huge-icon {
   color: #fff;
   font-size: 100pt;
- }
- .blue .huge-icon {
+}
+.blue .huge-icon {
   background-color: #83d7e5;
 }
+

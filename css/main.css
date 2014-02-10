@@ -8,6 +8,9 @@ body {
 h1, h2, h3 {
   font-weight: 300;
 }
+h1.hero {
+  font-size: 40pt;
+}
 h3 small {
   display: block;
 }
@@ -33,4 +36,10 @@ img.medium {
 .btn.alt {
   background-color: white;
   color: black;
+}
+
+.sig {
+  width: 80px;
+  position: relative;
+  bottom: -20px;
 }
