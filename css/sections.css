@@ -1,0 +1,96 @@
+.section {
+  width: 100%;
+}
+.maroon {
+  background-color: #7a2717;
+  color: #4f4f4f;
+  text-decoration:
+}
+.maroon h1 {
+  text-align: center;
+}
+.maroon em {
+  background-color: #83d7e5;
+}
+.white {
+  color: #7a2717;
+}
+.blue {
+  background-color: #83d7e5;
+  color: #fff;
+}
+
+.blog .content {
+  width: 900px;
+}
+.blog h3 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+  display: block;
+  font-size: 28px;
+  line-height: 1.1;
+  color: #333332;
+  margin-bottom: 4px;
+}
+.blog p {
+  letter-spacing: -0.02em;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #666665;
+  margin-bottom: 4px;
+}
+.blog small {
+  color: #b3b3b1;
+  font-size: 12pt;
+}
+.card-section {
+  padding-top: 150px;
+}
+.card {
+  background-color: rgba(255,255,255,0.6);
+  margin: 0px auto;
+  padding-top: 25px;
+  height: 300px;
+  width: 560px;
+}
+.card img {
+  width: 400px;
+}
+
+.content {
+  position: relative;
+  padding: 50px 0;
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+}
+
+.cable {
+  background: url(/media/images/cable.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  position: absolute;
+  top: 540px;
+  left: 45%;
+  margin: 0 auto;
+  height: 3000px;
+  width: 120px;
+}
+.coffee-croissant {
+  background: url(/media/images/bg/coffee_croissant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+ .huge-icon {
+  color: #fff;
+  font-size: 140pt;
+ }
+ .blue .huge-icon {
+  background-color: #83d7e5;
+}
