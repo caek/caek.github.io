@@ -6,6 +6,13 @@
   color: #bb5d4b;
   text-decoration:
 }
+.maroon small {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
 .maroon h1 {
   text-align: center;
 }
@@ -43,8 +50,32 @@
   font-style: normal;
   font-size: 20px;
   line-height: 1.2;
+  width: 700px;
   color: #666665;
-  margin-bottom: 4px;
+  margin: 40px auto;
+}
+.blog blockquote {
+  font-size: 1.9em;
+  font-family: georgia, serif;
+  color: #666;
+  margin: 20px auto;
+  width: 600px;
+  text-align: center;
+}
+.blog blockquote p{
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  margin: inherit;
+  width: inherit;
+  text-align: inherit;
+}
+.blog h1, .blog h2, .blog h3 {
+  font-family: georgia, serif;
+  color: #666;
+  margin: 20px auto;
+  width: 700px;
+  text-align: center;
 }
 .blog small {
   color: #b3b3b1;

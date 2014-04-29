@@ -15,6 +15,8 @@ Virtualisation means you won’t be building all your environments from scratch 
 
 >“you can build the entire environment from scratch using Puppet and Chef…but hold on I thought we were on Windows?”
 
+-----------------
+
 ##Environments
 
 Most real environment instantiations are heterogeneous, which means they need to be configured for specific purposes. Examples of the types of environments you might need are development, continuous integration (CI) and production-like. Development is likely to have development tools and stubs to external components and applications. CI may only include your build tool and basic frameworks like .NET, but won’t need development tools or real external components and applications. Production-like environments will have real external components and systems, but won’t need build and development tools. You could start with a base image and then use configuration management tools like Puppet and Chef to configure your environment to your needs. Alternatively, you can build the entire environment from scratch using Puppet and Chef…but hold on I thought we were on Windows?
@@ -39,11 +41,15 @@ Other irritating “features” you need to manage are Windows updates and ISO m
 
 I have probably just thoroughly depressed you and made you consider just doing it on Linux. So, let’s talk about the light at the end of the tunnel. These problems can be solved by you and in my opinion you have two options.
 
+--------------------
+
 ###1. Manage the problem
 
 Being aware of a problem is the first step to fixing it. Don’t go into Windows automation believing it’s going to be easy and you won’t have to deal with these little niggles. The best defense is an offense. Be prepared, be careful with registries, ensure you manage windows updates so they don’t manage you and use a version of a Windows that supports PowerShell and WinRM. Right now, I recommend Windows Server 2008 and above.
 
 >“…using a GUI is not the kind of easy we are after”
+
+-------
 
 ###2. Create the need for change
 
@@ -51,7 +57,7 @@ I’ve said it before but it is really the only way that things will get better.
 
 OK I’ll admit those probably aren’t the nice easy solutions you were after, but given the nature of software, I’m sure if I write this again in five years, we won’t have these problems and we’ll have awesome tools for automating the creation of our infrastructure and the deployment of our applications. We’ll be lamenting how much Puppet and Chef suck and how much better our new tools are.
 
-⁂
+<center>⁂</center>
 
 Right now we have to create the requirement for change and the only way to do that is for everyone to try and automate what they can. Use the best tool there is and petition to have it better.
 
