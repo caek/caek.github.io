@@ -43,5 +43,5 @@ When a change is new and it is going well, ensure you celebrate any successes. P
 Remember that not all pilots will be successful. The whole point of it being a pilot is that it is low risk – you aren’t asking the whole organisation to change, just one contained team that you can gauge at any given time of it’s success or failure.
 
 
-Cross posted from the ThoughtWorks P2 Magazine: [Issue 08][article-p2]
+Cross posted from the ThoughtWorks P2 Magazine: [Issue 08](https://thoughtworks.github.io/p2/issue08/svn-git/)
 </div>

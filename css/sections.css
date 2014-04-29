@@ -34,6 +34,14 @@
 .blue .content {
   background-color: #83d7e5;
 }
+.blue a {
+  color: #333;
+  text-decoration: none;
+}
+.blue p {
+  color: #333;
+  text-align: center;
+}
 
 .blog .content {
   width: 900px;
