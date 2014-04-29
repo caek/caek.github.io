@@ -19,6 +19,14 @@
 .maroon em {
   background-color: #fff;
 }
+.maroon a {
+  color: white;
+  text-decoration: none;
+}
+.maroon p {
+  color: white;
+  text-align: center;
+}
 .blue {
   background-color: #83d7e5;
   color: #fff;
@@ -30,7 +38,7 @@
 .blog .content {
   width: 900px;
 }
-.blog h3 {
+.blog-posts h3 {
   letter-spacing: -0.02em;
   font-weight: 700;
   font-style: normal;
@@ -40,10 +48,21 @@
   color: #333332;
   margin-bottom: 4px;
 }
-.blog h3 a {
+.blog-posts h3 a {
   color: inherit;
   text-decoration: none;
 }
+
+.blog-posts p {
+  letter-spacing: -0.02em;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #333;
+  margin-bottom:4px;
+}
+
 .blog p {
   letter-spacing: -0.02em;
   font-weight: 300;
@@ -51,7 +70,7 @@
   font-size: 20px;
   line-height: 1.2;
   width: 700px;
-  color: #666665;
+  color: #333;
   margin: 40px auto;
 }
 .blog blockquote {

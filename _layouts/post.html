@@ -3,7 +3,9 @@ layout: default
 ---
 <div class="section color maroon">
   <div class="content">
+    <small>/ <a href="/">home</a> /</small>
     <h1><em>{{ page.title }}</em></h1>
+    <p>{{ page.subtitle }}</p>
     <small>{{ page.date | date_to_string }}</small>
   </div>
 </div>
@@ -12,4 +14,23 @@ layout: default
 
 <div class="blog">
 {{ content }}
+</div>
+
+<hr class="more-space" />
+<div class="section white blog-posts">
+  <div class="content">
+    <h1>See more...</h1>
+  {% for post in site.posts %}
+    <article>
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <small>{{ post.subtitle }}</small>
+      </h3>
+      <p>
+        {{ post.excerpt }}
+      <small>Posted by {{ post.author }} on {{ post.date | date_to_string }}</small>
+      </p>
+    </article>
+  {% endfor %}
+  </div>
 </div>
