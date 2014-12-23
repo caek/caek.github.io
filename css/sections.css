@@ -169,6 +169,12 @@
   background-size: cover;
   height: 500px;
 }
+.new-york {
+  background: url(/media/images/bg/new_york.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
 .twitter.content {
 
 }
